@@ -1,0 +1,22 @@
+POM , Its uses :
+
+1) In this framework we use page object model.
+
+2) In POM every page is denotes as a class , eg Amazon has many pages like electronics and mobile 
+so each page is treated as a class with all elements and methods.
+
+3) ADVANTAGES OF POM:
+a) Reusability: each time we have to login and perform different actions like add cart , wishlist item
+ so we are reusing login page
+b) Maintainablity:If an element gets changed on a page,we dont have to make changes on each page , just chnage the desired element and its all done 
+c) Readability: Since each page is denoted as different class, the its easy to readthe code
+d) Scalability : If we need to add new page then we can easily integrate the page in our framework
+e) Abstract: Our framework is not concerned on how we have achieved it , it mainly focus on the outcome without knowing the implementation
+
+
+Framework folders description:
+1) We create three folders to convert a login.spec test into framework
+a) Locators folders : In this folder we create login locator.ts file , where we store all page Locators
+                        and create an object of this file, so that elements can be accessed outside  
+b) Pages folders : In this folder we store all page class of different pages and to store methods we want to performon that pages
+c) Utility or utils folder : Here we create or store login details like url , username , password and object of these elements which can be accessed outside
