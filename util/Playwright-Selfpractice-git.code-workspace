@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"folders": [
 		{
 			"path": "../../Playwright-Selfpractice-git"
@@ -8,4 +9,14 @@
 		}
 	],
 	"settings": {}
+=======
+    "folders": [
+        {
+            "path": "../../Playwright-Selfpractice-git/tests"
+        },
+        {
+            "path": ".."
+        }
+    ]
+>>>>>>> feature/new-branch
 }
